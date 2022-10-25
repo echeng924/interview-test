@@ -1,5 +1,5 @@
 {
-  visitsArr = [
+  "visitsArr": [
     {
       eventType: "MedicalEpisode",
       date: "2021-10-03 05:20",
