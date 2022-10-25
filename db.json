@@ -1,14 +1,45 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  visitsArr = [
+    {
+      eventType: "MedicalEpisode",
+      date: "2021-10-03 05:20",
+      ReasonForVisit: "Allergies",
+      Treatment: "Monitor",
+      DischargeDisposition: "Called Home"
+    },
+    {
+      eventType: "MedicalEpisode",
+      date: "2023-10-03 05:20",
+      ReasonForVisit: "Allergies",
+      Treatment: "Monitor",
+      DischargeDisposition: "Called Home"
+    },
+    {
+      eventType: "MedicationDose",
+      date: "2021-07-03 07:20",
+      MedicationName: "Ibuprofen",
+      DischargeDisposition: "Letter"
+    },
+    {
+      eventType: "MedicalEpisode",
+      date: "2021-11-03 05:06",
+      ReasonForVisit: "Fall",
+      Treatment: "Wound Care",
+      DischargeDisposition: "Letter"
+    },
+    {
+      eventType: "ConcussionAssessment",
+      date: "2021-11-01 01:12",
+      PhysicalSymptoms: "Headache",
+      EmotionalSymptoms: "Sad",
+      DischargeDisposition: "Called Home"
+    },
+    {
+      eventType: "BmiScreening",
+      date: "2021-11-02 02:12",
+      Weight: "55",
+      Height: "50",
+      DischargeDisposition: "Sent Home"
+    }
+  ]
 }
